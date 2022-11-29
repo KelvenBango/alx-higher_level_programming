@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
-for i in range(0, 100):
+for num in range(0, 100):
 
-    if i == 99:
-        print(f"{i}")
+    if num == 99:
+        print(f"{num}")
     else:
-        print(f"{i:02}", end=", ")
+        print(f"{num:02d}", end=", ")
