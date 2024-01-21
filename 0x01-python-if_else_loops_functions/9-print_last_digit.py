@@ -5,5 +5,3 @@ def print_last_digit(number):
     print(abs(last_digit), end='')
 
     return abs(last_digit)
-
-
