@@ -5,4 +5,4 @@ for alphabet in range(ord('z'), ord('a') - 1, -1):
         difference = 0
     else:
         difference = 32
-    print(f'{chr(alphabet - difference)}', end='')
+    print('{}'.format(chr(alphabet - difference)), end='')
