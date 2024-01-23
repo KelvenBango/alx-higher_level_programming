@@ -3,7 +3,7 @@
 if __name__ == '__main__':
     import sys
 
-    lenght = len(sys.argv) - 1
+    length = len(sys.argv) - 1
 
     if length == 0:
         print('0 arguments.')
@@ -12,5 +12,5 @@ if __name__ == '__main__':
     else:
         print('{} arguments:'.format(length))
 
-    for argument_position in range(length):
-        print('{}: {}'.format(length + 1, sys.argv[length + 1]))
+    for index in range(length):
+        print('{}: {}'.format(index + 1, sys.argv[index + 1]))
