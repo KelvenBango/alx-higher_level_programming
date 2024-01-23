@@ -12,21 +12,17 @@ if __name__ == '__main__':
 
     available_operators = ['+', '-', '*', '/']
     operator = sys.argv[2]
-    first_number = int(sys.argv[1])
-    second_number = int(sys.argv[3])
+    first = int(sys.argv[1])
+    second = int(sys.argv[3])
 
     if operator not in available_operators:
-        print(f'Unknown operator. Available operators: +, -, * and /')
+        print('Unknown operator. Available operators: +, -, * and /')
         sys.exit(1)
     if operator == '+':
-        print(f'{first_number} + {second_number} = \
-                {add(first_number, second_number)}')
+        print('{} + {} = {}'.format(first, second, add(first, second)))
     elif operator == '-':
-        print(f'{first_number} - {second_number} = \
-                {sub(first_number, second_number)}')
+        print('{} - {} = {}'.format(first, second, sub(first, second)))
     elif operator == '/':
-        print(f'{first_number} / {second_number} = \
-                {div(first_number, second_number)}')
-    else:
-        print(f'{first_number} * {second_number} = \
-                {mul(first_number, second_number)}')
+        print('{} / {} = {}'.format(first, second, div(first, second)))
+    elif operator == '*':
+        print('{} * {} = {}'.format(first, second, mul(first, second)))
