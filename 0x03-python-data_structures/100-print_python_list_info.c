@@ -1,6 +1,4 @@
-#include <stdlib.h>
 #include <listobject.h>
-#include <stdio.h>
 #include <Python.h>
 #include <object.h>
 /**
