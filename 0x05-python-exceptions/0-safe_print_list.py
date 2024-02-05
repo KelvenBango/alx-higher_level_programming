@@ -1,11 +1,14 @@
 #!/usr/bin/python3
 
 def safe_print_list(my_list=[], x=0):
-    try:
-        count_items = 0
-        for list_item in my_list:
-            print('{}'.format(list_item), end='')
-            count_items+=1
-        return count_items
-    except:
-        print('Exception occured')
+    count_items = 0
+    for index in range(x):
+        try:
+            print('{}'.format(my_list[index]), end='')
+            count_items += 1
+        except IndexError:
+            print('Index does not exist')
+            break
+    print('')
+
+    return count_items
