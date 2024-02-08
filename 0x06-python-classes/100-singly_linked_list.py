@@ -106,9 +106,6 @@ class SinglyLinkedList:
 
     def __str__(self):
         """Returns a string representation of the linked list."""
-        if self.__head is None:
-            return "Empty Linked List"
-
         result = []
         current = self.__head
         while current is not None:
