@@ -16,8 +16,8 @@ def is_same_class(obj, a_class):
         a_class: The class we want to verify
 
     Returns:
-        Bool: True if the object is exactly an instance of tthe specified class
-                otherwise False
+        Bool: True if the object is exactly an instance of the 
+                specified class otherwise False
     """
 
     return True if type(obj) == a_class else False
