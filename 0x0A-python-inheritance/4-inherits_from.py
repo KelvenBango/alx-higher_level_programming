@@ -10,7 +10,8 @@ Functions:
 
 def inherits_from(obj, a_class):
     """checks if the object is an instance
-    of a class that inherited (directly or indirectly) from the specified class
+    of a class that inherited (directly or indirectly) from the
+    specified class
 
     Args:
         obj (any): The object to check
