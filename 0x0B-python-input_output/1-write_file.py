@@ -1,4 +1,4 @@
-#!/usr/bn/python3
+#!/usr/bin/python3
 """Defines a function that writes a string to a text file (UTF-8)
 and returns the number of characters written"""
 
