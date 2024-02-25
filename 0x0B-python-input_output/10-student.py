@@ -12,7 +12,7 @@ class Student:
 
     def to_json(self, attrs=None):
         """Retrieves a dictionary representation of a Student instance.
-        
+
         If aatrs is a list of strings, represents only those attributes
         included in the list.
         
