@@ -15,7 +15,7 @@ class Student:
 
         If aatrs is a list of strings, represents only those attributes
         included in the list.
-        
+
         Args:
             attrs (list): (Optional) The attributes to represent.
         """
