@@ -2,5 +2,5 @@
 SELECT `score`, `name`
 FROM `second_table`
 WHERE `name` != ''
-ORDER BY `score` ASC
+ORDER BY `score` DESC
 
